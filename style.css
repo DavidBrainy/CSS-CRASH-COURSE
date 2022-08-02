@@ -1,0 +1,65 @@
+h1{
+    background-color:bisque;
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+    padding:20px 0;
+}
+
+.Heading {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.container p::first-letter {
+    font-size: 50px;
+    float: left;
+}
+
+.container{
+    max-width:80vw;
+    margin:0 auto;
+}
+
+.Card{
+    width:300px;
+    min-height:400px;
+    /* background-color:bisque; */
+    box-shadow:0 0 5px 2px rgba(20, 20, 20, 0.15);
+}
+
+ img{
+    width: 100%;
+}
+
+.Card .content-section{
+     padding: 10px;
+} 
+
+.Card .content-section h3{
+    color: blue;
+    font-size: 30;
+}
+
+button{
+    outline: none;
+    border: 2px solid tan;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
